@@ -69,7 +69,8 @@ h3{
     text-align: center;
 }
 .projects-card img {
-    max-width: 100%;
+    max-width: 300px;
+    max-height: 300px;
     display: block;
     margin: auto;
 }
@@ -88,7 +89,8 @@ h3{
     }
 }
 .produckts-card img {
-    max-width: 100%;
+    max-width: 300px;
+    max-height: 300px;
     display: block;
     margin: auto;
 }
