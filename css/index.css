@@ -214,6 +214,8 @@ h3{
 footer {
     display: inline-block;
     min-width: 120px;
+    display: grid;
+    align-items: center;
 }
 #contackts {
     background-color: var(--main-color);;
@@ -233,6 +235,22 @@ footer {
     color: var(--accent-color);
     font-size: 0.9rem;      
     text-align: center;
+}
+#contackts{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+.contackt{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+@media (min-width: 800px) {
+    .contacktus{
+        display: grid;
+        grid-template-columns: (30%, 1fr, 1fr, 1fr);
+    }
 }
 
 
