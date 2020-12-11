@@ -117,6 +117,11 @@ h3{
 }
 
 @media (min-width: 900px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
     .produckts-list {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -248,9 +253,8 @@ footer {
 }
 @media (min-width: 800px) {
     .contacktus{
-        display: grid;
-        grid-template-columns: (30%, 1fr, 1fr, 1fr);
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 }
-
-
